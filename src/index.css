@@ -93,3 +93,16 @@ select{
   border-radius: 3rem;
   margin-top: 4px;
 }
+@media screen and (max-width: 480px) {
+  
+  .landForm{
+      width:100% ;
+      padding: 1rem;
+      margin-top: 50%;
+      
+  }
+  .Input{
+    width: 15em;
+  }
+  
+}

@@ -53,7 +53,7 @@ export default class Agendamento extends React.Component{
                                         inputStyle={{width:"14rem",borderRadius:"3rem",height:"2rem",fontFamily:"Archivo Black",fontSize:"16px"}}
                                         country={'br'}
                                         
-                                        containerStyle={{marginLeft:'4rem', }}
+                                        containerStyle={{marginLeft:'20%', }}
                                         value={this.state.phone}
                                         onChange={phone => this.setState({ phone })}
                                         isValid={(value, country) => {
