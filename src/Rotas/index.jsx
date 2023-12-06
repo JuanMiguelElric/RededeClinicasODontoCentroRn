@@ -13,7 +13,7 @@ export default function Rota(){
             <Routes>
                 <Route index element={<PaginaInicisl/>} />
                 <Route path="calendary" element={<Agendamento />} />
-                <Route path="*" element={<PageDeError />}/>
+                {/*<Route path="*" element={<PageDeError />}/>*/}
             </Routes>
         </BrowserRouter>
 
