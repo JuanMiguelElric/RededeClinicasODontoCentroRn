@@ -53,9 +53,7 @@ const ForParty = () =>{
 
                 </div>
             </div>
-            <div className="container-fluid" style={{background:"blue"}}>
-                opapapa
-            </div>
+        
         
         </>
 

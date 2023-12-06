@@ -14,7 +14,7 @@ const PrimaryParty =() =>{
                         {/*h1 titulo para tela grande */}
                         <h1 className="h1 text-primary 	d-none d-sm-block float-md-right">Odonto <br /> Centro</h1>
                         {/*h2 para telas de celular*/}
-                        <h2 className="h2 text-primary  d-lg-none d-xl-block d-xl-none"style={{fontSize:'4rem'}}>Odonto <br /> Digital</h2>
+                        <h2 className="h2 text-primary  d-lg-none d-xl-block d-xl-none"style={{fontSize:'3.2em'}}>Odonto <br />Centro</h2>
                         <h4 className=" h4 text-primary">Transformando sorrisos<br /> Transformando vidas!</h4>
                         <div className="d-flex flex-row-reverse ">
                             <button className="btn btn-primary active ">Agende sua consulta agora!</button>

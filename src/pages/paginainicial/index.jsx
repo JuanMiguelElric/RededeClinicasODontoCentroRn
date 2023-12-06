@@ -5,6 +5,7 @@ import PrimaryParty from "./primarypaty";
 import SecundaryParty from "./secundaryparty";
 import TerceiraParty from "./terceirypaty";
 import ForParty from "./forparty";
+import Rodape from "../../components/rodape";
 
 class PaginaInicisl extends React.Component{
     render(){
@@ -19,7 +20,8 @@ class PaginaInicisl extends React.Component{
                 <TerceiraParty />
                 <br />
                 <ForParty />
-                
+                <br />
+                <Rodape />
             </>
            
             
