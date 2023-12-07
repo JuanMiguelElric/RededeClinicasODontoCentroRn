@@ -31,19 +31,24 @@ const Menu = () => {
                         </li>
 
                         <li className="float-sm-right d-xl-none d-lg-none d-xl-block">
-                            {/*
+                            
                             <div className="nav-link" onClick={toggleSidebar}>
                                 <Hamburger toggled={aberto} toggle={setAberto} />
                             </div>
-                             */}
-                             <div className="btn btn-primary" onClick={toggleSidebar} >
+                             
+                             
                                    
-                            </div>
+                          
 
                             <div className={`menu-item ${aberto ? 'active' : ''}`}>
-                            <div className="btn btn-primary" onClick={toggleSidebar}></div>
-                                <p>deu certo</p>
-                                <p></p>
+                                <div className="text-primary">
+                                    <p>Especialidades</p>
+                                    <p>Sobre</p>
+                                    <p>Unidades</p>
+                                    <p>Aplicativo</p>
+                                    <p>Agendar</p>
+
+                                </div>
                             </div>
                         </li>
                     </ul>
