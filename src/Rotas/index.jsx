@@ -11,9 +11,9 @@ export default function Rota(){
     return(
         <BrowserRouter>
             <Routes>
-                <Route index element={<PaginaInicisl/>} />
-                <Route path="calendary" element={<Agendamento />} />
-                {/*<Route path="*" element={<PageDeError />}/>*/}
+                <Route path="RededeClinicasODontoCentroRn/"index element={<PaginaInicisl/>} />
+                <Route path="RededeClinicasODontoCentroRn/calendary" element={<Agendamento />} />
+                <Route path="*" element={<PageDeError />}/>
             </Routes>
         </BrowserRouter>
 
