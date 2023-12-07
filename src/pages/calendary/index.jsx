@@ -33,8 +33,17 @@ export default class Agendamento extends React.Component{
         alert("Olá "+this.state.nome+ " Dono do telefone "+this.state.phone+"em breve um de nossos atendentes entrará em contato com você");
         event.preventDefault();
     }
-   
+    //função para o select
+    
     render(){
+        const ClinicasodontoLogicas=[
+            {id:1, sigla:'cl1',nome:"Clinica1"},
+            {id:2, sigla:"cl2",nome:"Clinica2"},
+            {id:3, sigla:"cl3",nome:"Clinica3"},
+            {id:4, sigla:"cl4",nome:"Clinica4"},
+            {id:5, sigla:"cl5",nome:"Clinica5"},
+            {id:6, sigla:"Cl6", nome:"Clinica6"}
+        ]
         return(
             <>
                 <div className="backgroundprimaryparty">
@@ -74,11 +83,9 @@ export default class Agendamento extends React.Component{
                                 </div> 
 
                                 <select name=""  placeholder=" clinica mais proxima de você">
-                                    <option value="">Clinica1</option>
-                                    <option value="">Clinica2</option>
-                                    <option value="">Clinica3</option>
-                                    <option value="">Clinica4</option>
-                                    <option value="">Clinica5</option>
+                                    {ClinicasodontoLogicas.map(({id,sigla,nome})=>(
+                                        <option key={id} value={sigla}>{nome}</option>
+                                    ))}
                                 </select>
                                 <br />
                                 <input type="submit" className="btn btn-primary" style={{marginTop:"0.9rem",height:"2rem",borderRadius:"7rem" }} value="Agendar!" />
