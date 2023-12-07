@@ -25,7 +25,7 @@ const Menu = () => {
                         <li className="d-none d-xl-block">Unidades</li>
                         <li className="d-none d-xl-block">Aplicativo</li>
                         <li className="d-none d-xl-block">
-                            <Link to="/agendar">
+                            <Link to="/RededeClinicasODontoCentroRn/calendary">
                                 <button type="button" className="btn btn-md btn-outline-dark text-primary" style={{ borderRadius: "20px" }}>Agendar</button>
                             </Link>
                         </li>
@@ -46,7 +46,11 @@ const Menu = () => {
                                     <p>Sobre</p>
                                     <p>Unidades</p>
                                     <p>Aplicativo</p>
-                                    <p>Agendar</p>
+                                    <p>
+                                        <Link to="calendary">
+                                            Agendar
+                                        </Link>
+                                    </p>
 
                                 </div>
                             </div>

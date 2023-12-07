@@ -19,7 +19,7 @@ const Rodape = () =>{
                         </ul>
                     </div>
                     <div className="col-8">
-                        <h3>Siga nossas redes Sociais</h3>
+                        <p>Siga nossas Redes Sociais</p>
 
                         <ul className="nav">
                             <li className="nav-link"><SocialIcon url="https://linkedin.com/in/couetilc" /></li>

@@ -105,6 +105,9 @@ select{
   border-radius: 3rem;
   margin-top: 4px;
 }
+Link{
+  text-decoration: none;
+}
 @media screen and (max-width: 480px) {
   
   .landForm{
@@ -125,3 +128,4 @@ select{
   }
   
 }
+
